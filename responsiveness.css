@@ -1,0 +1,906 @@
+.home-image > div:nth-child(5) {
+    display: none;
+}
+
+.home-image > div:nth-child(6) {
+    display: none;
+}
+
+.next-section {
+    display: flow-root !important;
+}
+
+.address-section {
+    box-shadow: none !important;
+}
+
+.address-section.active {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1) !important;
+}
+
+@media (max-width: 1024px) {
+    .nav-bar {
+        padding: 10px 30px;
+    }
+
+    .nav-bar img {
+        width: 15%;
+    }
+
+    .video-section-sub {
+        padding: 23px 50px;
+    }
+
+    .food-container {
+        margin: 10px 60px;
+    }
+
+    .food-main-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .footer-columns {
+        margin: 40px 40px;
+    }
+
+    .footer-div img {
+        margin-left: 40px;
+    }
+
+    .app-download {
+        padding-left: 5%;
+    }
+
+    .sub-download-bar {
+        width: 50%;
+    }
+
+    .together-columns {
+        gap: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .nav-bar {
+        padding: 12px 16px;
+        align-items: center;
+    }
+
+    .nav-bar img {
+        width: 90px;
+    }
+
+    .nav-bar button {
+        padding: 8px 14px;
+        gap: 6px;
+        border-radius: 24px;
+    }
+
+    .nav-bar i {
+        font-size: 15px;
+    }
+
+    .nav-bar p {
+        font-size: 14px;
+    }
+
+    .next-section {
+        width: 100%;
+        display: flow-root;
+    }
+
+    .video-section-sub {
+        flex-direction: column;
+        padding: 16px 16px 0 16px;
+        margin-top: 56px;
+        align-items: flex-start;
+        gap: 0;
+        justify-content: flex-start;
+    }
+
+    .video-div {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        order: -1;
+        margin-top: -10px;
+    }
+
+    .video-div video {
+        width: 55%;
+        max-width: 220px;
+        float: right;
+    }
+
+    .food-section {
+        margin-top: -130px;
+        text-align: left;
+        width: 100%;
+        padding-bottom: 24px;
+    }
+
+    .food-section span {
+        font-size: 32px;
+        line-height: 1.15;
+        display: block;
+        max-width: 55%;
+    }
+
+    .food-section p {
+        font-size: 14px;
+        margin-top: 10px;
+        max-width: 100%;
+    }
+
+    .input-box {
+        flex-direction: row;
+        height: 52px;
+        padding: 0 12px;
+        gap: 8px;
+        border-radius: 12px;
+        margin-top: 16px;
+        align-items: center;
+        width: 100%;
+    }
+
+    .input-box img {
+        width: 20px;
+        height: 20px;
+        flex-shrink: 0;
+    }
+
+    .main-input {
+        font-size: 14px;
+        padding: 0;
+        flex: 1;
+        height: 100%;
+    }
+
+    .input-box button {
+        display: none;
+    }
+
+    .wave {
+        margin-top: 0;
+    }
+
+    .wave img {
+        margin-top: 0;
+    }
+
+    .article-paragraph {
+        font-size: 22px;
+        font-weight: 700;
+        margin-top: 30px;
+        padding: 0 16px;
+        text-align: left;
+    }
+
+    .food-container {
+        margin: 10px 16px;
+    }
+
+    .food-main-container {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 16px 10px;
+    }
+
+    .food-card {
+        width: 100%;
+    }
+
+    .blob-cutter {
+        width: 100%;
+    }
+
+    .blob-cutter img {
+        height: 90px !important;
+        width: 100% !important;
+    }
+
+    .text-badge,
+    .text-badge2,
+    .text-badge5 {
+        font-size: 10px;
+        padding: 3px 6px;
+        width: auto;
+        margin-left: 0;
+        bottom: -6px;
+        height: auto;
+        min-height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .paragraph-h2 {
+        font-size: 28px;
+        font-weight: 700;
+        margin-top: 40px;
+        padding: 0 16px;
+        text-align: center;
+    }
+
+    .features-container {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        padding: 20px 16px;
+        gap: 0;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        max-width: 100%;
+    }
+
+    .feature-card {
+        flex: 0 0 80vw;
+        max-width: 80vw;
+        scroll-snap-align: start;
+        padding-right: 16px;
+    }
+
+    .image-wrapper {
+        height: 130px;
+    }
+
+    .explore-button {
+        margin-top: 24px;
+        padding: 0 16px;
+    }
+
+    .explore-button button {
+        width: 100%;
+        font-size: 16px;
+        padding: 14px 16px;
+        border-radius: 50px;
+    }
+
+    .section-cities {
+        padding: 60px 16px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .banner-title {
+        font-size: 1.8rem;
+    }
+
+    .state-button {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .state-button button {
+        font-size: 15px;
+        padding: 10px 18px;
+    }
+
+    .btn button {
+        font-size: 15px;
+        padding: 12px 20px;
+    }
+
+    .btn-food {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .btn-food button {
+        font-size: 14px;
+        padding: 10px 14px;
+    }
+
+    .Top-categories-div {
+        margin-top: 30px;
+    }
+
+    .btn-Categories button {
+        font-size: 15px;
+        padding: 12px 20px;
+    }
+
+    .app-download {
+        background-image: none;
+        min-height: auto;
+        margin-top: 0;
+        padding: 40px 16px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sub-download-bar {
+        width: 100%;
+        max-width: 100%;
+        align-items: center;
+    }
+
+    .sub-download-bar img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .sub-download-bar p {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .sub-download-bar span {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .download-store {
+        flex-direction: row;
+        gap: 12px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+
+    .download-store img {
+        height: 44px;
+        width: auto;
+    }
+
+    .together-section {
+        padding: 40px 16px;
+        min-height: auto;
+    }
+
+    .together-header {
+        margin-bottom: 30px;
+    }
+
+    .together-header h2 {
+        font-size: 1.8rem;
+    }
+
+    .together-columns {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .together-card {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .together-card img {
+        width: 180px;
+    }
+
+    .footer-section {
+        border-top-right-radius: 8%;
+        border-top-left-radius: 6%;
+        padding: 30px 0;
+    }
+
+    .footer-div {
+        text-align: center;
+    }
+
+    .footer-div img {
+        width: 90px;
+        margin-left: 0;
+    }
+
+    .footer-columns {
+        flex-direction: column;
+        align-items: center;
+        gap: 28px;
+        margin: 24px 16px;
+        text-align: center;
+    }
+
+    .footer-columns-content {
+        width: 100%;
+    }
+
+    .footer-categories {
+        margin: 20px 16px;
+        align-items: center;
+    }
+
+    .footer-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .country-options {
+        margin: 16px;
+        text-align: center;
+    }
+
+    .country-options select {
+        width: 70%;
+        height: 48px;
+        font-size: 14px;
+    }
+
+    .address-section {
+        padding: 8px 14px;
+    }
+
+    .address-title {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .address-title .badge {
+        font-size: 14px;
+    }
+
+    .modal-overlay {
+        align-items: flex-end;
+    }
+
+    .modal-card {
+        width: 100%;
+        border-radius: 20px 20px 0 0;
+        padding: 24px 18px 32px;
+    }
+
+    .close-btn img {
+        margin-left: 0;
+        margin-right: auto;
+        display: block;
+    }
+
+    .input-box1 {
+        width: 90%;
+        height: 50px;
+    }
+
+    .add-address-btn {
+        padding: 14px 0;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        text-align: center;
+    }
+
+    section.next-section {
+        margin-top: 0;
+    }
+
+    section:not([class]) {
+        max-width: 100%;
+        width: 100%;
+        margin-top: 64px;
+        padding: 0 16px;
+    }
+
+    .welcome-card {
+        padding: 32px 20px;
+        max-width: 100%;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    .subtitle {
+        font-size: 13px;
+        margin-bottom: 24px;
+    }
+
+    .phone-input-container {
+        grid-template-columns: 130px 1fr;
+        gap: 10px;
+    }
+
+    .input-group input,
+    .select-wrapper select {
+        height: 52px;
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .action-buttons {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .btn {
+        height: 48px;
+        font-size: 16px;
+    }
+
+    .btn-social,
+    .btn-social1 {
+        width: 85%;
+        height: 50px;
+        font-size: 17px;
+    }
+
+    .social-buttons-container {
+        gap: 12px;
+        margin-bottom: 30px;
+    }
+
+    .divider {
+        font-size: 14px;
+        margin: 20px 0;
+    }
+
+    .captcha-text {
+        font-size: 12px;
+        margin-bottom: 24px;
+    }
+
+    .terms-footer-text {
+        font-size: 13px;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-bar {
+        padding: 10px 12px;
+    }
+
+    .nav-bar img {
+        width: 75px;
+    }
+
+    .nav-bar button {
+        padding: 7px 12px;
+        gap: 5px;
+    }
+
+    .nav-bar i {
+        font-size: 13px;
+    }
+
+    .nav-bar p {
+        font-size: 12px;
+    }
+
+    .video-section-sub {
+        padding: 12px 12px 0 12px;
+        margin-top: 52px;
+    }
+
+    .food-section {
+        margin-top: -110px;
+    }
+
+    .food-section span {
+        font-size: 26px;
+        max-width: 52%;
+    }
+
+    .food-section p {
+        font-size: 13px;
+    }
+
+    .video-div video {
+        max-width: 190px;
+    }
+
+    .input-box {
+        height: 48px;
+        margin-top: 14px;
+        border-radius: 10px;
+    }
+
+    .article-paragraph {
+        font-size: 18px;
+        margin-top: 24px;
+    }
+
+    .food-main-container {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 14px 8px;
+    }
+
+    .blob-cutter img {
+        height: 72px !important;
+    }
+
+    .text-badge,
+    .text-badge2,
+    .text-badge5 {
+        font-size: 9px;
+        padding: 2px 4px;
+    }
+
+    .paragraph-h2 {
+        font-size: 24px;
+    }
+
+    .features-container {
+        padding: 16px 12px;
+    }
+
+    .feature-card {
+        flex: 0 0 85vw;
+        max-width: 85vw;
+    }
+
+    .image-wrapper {
+        height: 110px;
+    }
+
+    .explore-button button {
+        font-size: 15px;
+        padding: 13px 16px;
+    }
+
+    .section-cities {
+        padding: 50px 12px;
+    }
+
+    .banner-title {
+        font-size: 1.5rem;
+    }
+
+    .state-button button {
+        font-size: 13px;
+        padding: 8px 14px;
+    }
+
+    .btn button {
+        font-size: 14px;
+        padding: 11px 16px;
+    }
+
+    .btn-food button {
+        font-size: 13px;
+        padding: 8px 12px;
+    }
+
+    .app-download {
+        padding: 30px 12px;
+    }
+
+    .sub-download-bar p {
+        font-size: 24px;
+    }
+
+    .sub-download-bar span {
+        font-size: 14px;
+    }
+
+    .download-store img {
+        height: 40px;
+    }
+
+    .together-section {
+        padding: 30px 12px;
+    }
+
+    .together-header h2 {
+        font-size: 1.5rem;
+    }
+
+    .together-card img {
+        width: 150px;
+    }
+
+    .together-card h3 {
+        font-size: 1.2rem;
+    }
+
+    .together-card p {
+        font-size: 0.875rem;
+        max-width: 100%;
+    }
+
+    .together-card button {
+        padding: 12px 24px;
+        font-size: 0.9rem;
+    }
+
+    .footer-div img {
+        width: 75px;
+    }
+
+    .footer-columns span {
+        font-size: 15px;
+    }
+
+    .footer-columns a {
+        font-size: 13px;
+    }
+
+    .footer-categories p {
+        font-size: 15px;
+    }
+
+    .footer-categories a {
+        font-size: 13px;
+    }
+
+    .country-options select {
+        width: 80%;
+        height: 44px;
+        font-size: 13px;
+    }
+
+    .address-title {
+        font-size: 12px;
+    }
+
+    .modal-card {
+        padding: 20px 14px 28px;
+    }
+
+    .modal-card h2 {
+        font-size: 20px;
+    }
+
+    .add-address-btn {
+        padding: 13px 0;
+        font-size: 15px;
+        width: 90%;
+    }
+
+    .input-box1 {
+        width: 92%;
+        height: 48px;
+    }
+
+    section:not([class]) {
+        padding: 0 12px;
+    }
+
+    .welcome-card {
+        padding: 28px 16px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .subtitle {
+        font-size: 13px;
+    }
+
+    .phone-input-container {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .input-group input,
+    .select-wrapper select {
+        height: 50px;
+        font-size: 15px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .action-buttons {
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+    }
+
+    .btn {
+        height: 46px;
+        font-size: 15px;
+    }
+
+    .btn-social,
+    .btn-social1 {
+        width: 90%;
+        height: 48px;
+        font-size: 16px;
+    }
+
+    .divider {
+        font-size: 13px;
+        margin: 16px 0;
+    }
+
+    .captcha-text {
+        font-size: 11px;
+    }
+
+    .terms-footer-text {
+        font-size: 12px;
+    }
+
+    .close-btn {
+        top: 14px;
+        right: 16px;
+    }
+}
+
+@media (max-width: 375px) {
+    .nav-bar img {
+        width: 68px;
+    }
+
+    .food-section span {
+        font-size: 22px;
+    }
+
+    .food-section {
+        margin-top: -95px;
+    }
+
+    .video-div video {
+        max-width: 165px;
+    }
+
+    .article-paragraph {
+        font-size: 16px;
+    }
+
+    .paragraph-h2 {
+        font-size: 20px;
+    }
+
+    .banner-title {
+        font-size: 1.3rem;
+    }
+
+    .together-header h2 {
+        font-size: 1.3rem;
+    }
+
+    .sub-download-bar p {
+        font-size: 20px;
+    }
+
+    .food-main-container {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 12px 6px;
+    }
+
+    .blob-cutter img {
+        height: 60px !important;
+    }
+
+    .text-badge,
+    .text-badge2,
+    .text-badge5 {
+        font-size: 8px;
+        padding: 2px 3px;
+    }
+
+    .action-buttons {
+        grid-template-columns: 1fr;
+    }
+
+    .btn-social,
+    .btn-social1 {
+        width: 100%;
+    }
+
+    .welcome-card {
+        padding: 24px 12px;
+    }
+
+    .phone-input-container {
+        grid-template-columns: 1fr;
+    }
+}

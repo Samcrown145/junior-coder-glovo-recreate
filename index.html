@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glovo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsiveness.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-9bO46+7p/S9Z98zI01+L4V/70R86D4y6w6eL3+eF4F5dG9y9fF8g6D7e==..." crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-bar">
+            <img src="image/download (47).svg" alt="">
+            <a href="./login.html">
+                <button>
+                    <i class="fa-solid fa-user"></i>
+                    <p>Login</p>
+                </button>
+            </a>
+        </div>
+
+        <div class="address-section" id="stickyBar">
+
+            <nav>
+                <div class="nav-bar">
+                    <img src="image/download (47).svg" alt="">
+                    <a href="./login.html">
+                        <button>
+                            <i class="fa-solid fa-user"></i>
+                            <p>Login</p>
+                        </button>
+                    </a>
+                </div>
+            </nav>
+
+            <h2 class="address-title">
+                Enter your address to know <span class="badge">what's near you</span>
+            </h2>
+
+            <h2 class="address-title">
+                Enter your address to know <span class="badge">what's near you</span>
+            </h2>
+
+            <div class="input-box" id="addressModal">
+                <img src="./image/download (48).svg" alt="Location pin">
+
+                <input class="main-input" type="text" placeholder="What's your address?" readonly>
+
+                <span class="input-icon right-icon">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="next-section">
+        <div class="video-section">
+            <div class="video-section-sub">
+                <div class="video-div">
+                    <video src="./video/address-container-animation.webm" autoplay loop muted playsinline></video>
+                </div>
+
+                <div class="food-section" id="addressInput">
+                    <span>Food delivery and <br> more</span>
+                    <p>Groceries, shops, pharmacies, anything!</p>
+                    <div class="input-box">
+                        <img src="./image/download (48).svg" alt="">
+                        <input class="main-input" type="text" placeholder="What's yout address? ">
+                        <button>Use current location</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-overlay" id="locationModal">
+
+                <div class="modal-card">
+                    <div class="close-btn" id="closeBtn">
+                        <img style="width: 5%;" src="./image/download (50).svg" alt="">
+                    </div>
+
+                    <h2>Where shall we deliver to?</h2>
+
+                    <!-- <div class="food-section" id="addressInput"> -->
+                        <div class="input-box1">
+                             <i  class="fas fa-search"></i>
+                            <input class="main-input1" type="text" placeholder="Search address ">
+                        </div>
+                    <!-- </div> -->
+
+
+                    <button class="add-address-btn">Use Current Location</button>
+                </div>
+
+            </div>
+
+            <div class="wave">
+                <img src="./image/address-jumbotron-wave-desktop.1c0cbdfa.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <article>
+        <h1 class="article-paragraph">Top restaurants and more in Nigeria</h1>
+
+        <div class="food-container">
+            <div class="food-main-container">
+
+                <div class="food-card">
+                    <div class="blob-cutter">
+                        <img src="./image/imageye___-_imgi_3_hlwqevdvj0cfzss5gpoi - Copy.webp" alt="Jollof Rice">
+                    </div>
+                    <div class="text-badge">The Place</div>
+                </div>
+
+                <div class="food-card">
+                    <div class="blob-cutter">
+                        <img src="./image/imageye___-_imgi_4_egmjz07ibkbr9uopccsc - Copy.webp" alt="Jollof Rice">
+                    </div>
+                    <div class="text-badge2">Mama Cass Restaurant</div>
+                </div>
+
+                <div class="food-card">
+                    <div class="blob-cutter">
+                        <img src="./image/imageye___-_imgi_5_jui8atcdisz1fyj8xqif.webp" alt="Jollof Rice">
+                    </div>
+                    <div class="text-badge">Sweet Sensation</div>
+                </div>
+
+                <div class="food-card">
+                    <div class="blob-cutter">
+                        <img src="./image/imageye___-_imgi_6_e0pcegpluhtq0akciakd.webp" alt="Jollof Rice">
+                    </div>
+                    <div class="text-badge">Chopnownow</div>
+                </div>
+
+                <div class="food-card">
+                    <div class="blob-cutter">
+                        <img src="./image/imageye___-_imgi_7_o57akgxyabkgo04kjlbu.webp" alt="Jollof Rice">
+                    </div>
+                    <div class="text-badge">KFC</div>
+                </div>
+
+                <div class="food-card">
+                    <div class="blob-cutter">
+                        <img src="./image/imageye___-_imgi_8_zdpfnwewlbzc40surjgw - Copy.webp" alt="Jollof Rice">
+                    </div>
+                    <div class="text-badge5">Fresh Kitchen Restaurant</div>
+                </div>
+
+                <div class="food-card">
+                    <div class="blob-cutter">
+                        <img src="./image/imageye___-_imgi_9_nem66tghxmqigr2fodaq.webp" alt="Jollof Rice">
+                    </div>
+                    <div class="text-badge">smallChops.ng</div>
+                </div>
+
+                <div class="food-card">
+                    <div class="blob-cutter">
+                        <img src="./image/imageye___-_imgi_10_cg4sdskoaecoxhp7lhkt.webp" alt="Jollof Rice">
+                    </div>
+                    <div class="text-badge">Debonairs Pizza</div>
+                </div>
+
+            </div>
+        </div>
+    </article>
+
+    <h1 class="paragraph-h2">Anything delivered</h1>
+
+    <section class="features-container">
+        <div class="feature-card">
+            <div class="image-wrapper">
+                <img src="./image/restaurants.e082f46b (1).svg" alt="Your city's top restaurants">
+            </div>
+            <h2>Your city's top restaurants</h2>
+            <p>With a great variety of restaurants you can order your favourite food or <br> <span
+                    class="highlight">explore new restaurants nearby!</span></p>
+        </div>
+
+        <div class="feature-card">
+            <div class="image-wrapper">
+                <img src="./image/delivery.81e9087f.svg" alt="Fast delivery">
+            </div>
+            <h2>Fast delivery</h2>
+            <p>Like a flash! Order or send anything in your city and <span class="highlight">receive it in
+                    minutes</span></p>
+        </div>
+
+        <div class="feature-card">
+            <div class="image-wrapper">
+                <img src="./image/groceries.3dd22a11.svg" alt="Groceries delivery & more">
+            </div>
+            <h2>Groceries delivery & more</h2>
+            <p>Find anything you need! From <span class="highlight">supermarkets to shops, pharmacies to florists</span>
+                — if it's in your city order it and receive it.</p>
+        </div>
+    </section>
+
+    <div class="explore-button">
+        <button>Explore stores around you</button>
+    </div>
+
+    <section class="section-cities">
+        <div class="home-image">
+            <img src="./image/cities-icon.373dc0b9.svg" alt="" class="city">
+            <h1 class="banner-title">Top cities in Nigeria</h1>
+            <div class="state-button">
+                <button>Lagos</button>
+                <button>Abuja</button>
+            </div>
+            <div class="btn">
+                <button>Browse all cities</button>
+            </div>
+
+            <div>
+                <div class="Top-categories-div">
+                    <h2 class="banner-title">Top categories</h2>
+                    <div class="btn-food">
+                        <button>Breakfast</button>
+                        <button>Burgers</button>
+                        <button>Healthy</button>
+                        <button>indian</button>
+                        <button>Nigeria</button>
+                        <button>Pasteries</button>
+                        <button>Pizza</button>
+                        <button>Sushi</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="btn">
+                <button>All categories</button>
+            </div>
+
+            <div>
+                <div class="Top-categories-div">
+                    <h2 class="banner-title">Top categories</h2>
+                    <div class="btn-food">
+                        <button>Breakfast</button>
+                        <button>Burgers</button>
+                        <button>Healthy</button>
+                        <button>indian</button>
+                        <button>Nigeria</button>
+                        <button>Pasteries</button>
+                        <button>Pizza</button>
+                        <button>Sushi</button>
+                    </div>
+                    <div class="btn-Categories">
+                        <button>All categories</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="app-download">
+        <div class="sub-download-bar">
+            <img src="./image/download-icon.475cc763.svg" alt="">
+            <p>Download the app</p>
+            <span>Order anything and track it in real time with the Glovo app</span>
+            <div class="download-store">
+                <img src="./image/ios-button.33217f86.svg" alt="App Store">
+                <img src="./image/google-button.4b60c502.svg" alt="Google Play">
+            </div>
+        </div>
+    </section>
+
+    <section class="together-section">
+        <div class="together-header">
+            <img src="./image/hands.1b6e6913.svg" alt="">
+            <h2>Let’s do it together</h2>
+        </div>
+
+        <div class="together-columns">
+            <div class="together-card">
+                <img src="./image/imageye___-_imgi_20_rider-blob-new.aa1e6260.png" alt="">
+                <h3>Become a rider</h3>
+                <p>Enjoy flexibility, freedom and competitive earnings by delivering through Glovo.</p>
+                <button>Register here</button>
+            </div>
+
+            <div class="together-card">
+                <img src="./image/imageye___-_imgi_21_partners-blob-new.1aae464a.png" alt="">
+                <h3>Become a partner</h3>
+                <p>Grow with Glovo! Our technology and user base can help you boost sales and unlock new opportunities!
+                </p>
+                <button>Register here</button>
+            </div>
+
+            <div class="together-card">
+                <img src="./image/imageye___-_imgi_22_careers-blob-new.b9e63af8.png" alt="">
+                <h3>Careers</h3>
+                <p>Ready for an exciting new challenge? If you’re ambitious, humble, and love working with others, then
+                    we want to hear from you!</p>
+                <button>Register here</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer-section">
+        <div class="footer-div">
+            <img src="./image/download (47).svg" alt="">
+        </div>
+
+        <div class="footer-columns">
+            <div class="footer-columns-content">
+                <span>Let's do it together</span>
+                <p> <a>Careers</a></p>
+                <p><a>Glovo for partners</a></p>
+                <p><a>Couriers</a></p>
+                <p><a>Glovo Business</a></p>
+            </div>
+
+            <div class="footer-columns-content">
+                <span>Links of interest</span>
+                <p> <a>About us</a></p>
+                <p><a>FAQ</a></p>
+                <p><a>Glovo Prime</a></p>
+                <p> <a>Blog</a></p>
+                <p><a>Contact us</a></p>
+                <p><a>Security</a></p>
+                <p><a>Profile</a></p>
+            </div>
+
+            <div class="footer-columns-content">
+                <span>Follow us</span>
+                <p> <a>Instagram</a></p>
+                <p><a>TikTok</a></p>
+            </div>
+
+            <div class="footer-columns-content">
+                <div class="img-download-footer">
+                    <img style="width: 100%;" src="./image/download-button-new (1).svg" alt="">
+                    <img style="width: 100%;" src="./image/ios-button.33217f86.svg" alt="">
+                </div>
+                <p><a>Terms & Conditions</a></p>
+                <p><a>Privacy Policy</a></p>
+                <p><a>Cookie Policy</a></p>
+                <p> <a>Compliance</a></p>
+                <p><a>Configure the cookies</a></p>
+                <p><a>Digital Services Act</a></p>
+                <p><a>European Accesibility Act</a></p>
+            </div>
+        </div>
+
+        <div class="footer-categories">
+            <p>Top categories: Nigeria</p>
+            <div class="footer-links">
+                <a href="">Breakfast</a>
+                <a href="">Burgers</a>
+                <a href="">Healthy</a>
+                <a href="">Indians</a>
+                <a href="">Nigeria</a>
+                <a href="">Pasteries</a>
+                <a href="">Pizza</a>
+                <a href="">Sushi</a>
+            </div>
+
+
+            <div>
+                <a href="">All Categories</a>
+            </div>
+
+        </div>
+
+        <div class="country-options">
+            <select name="" id="">
+                <option value="NG">English</option>
+                <option value="CI">Côte d'Ivoire</option>
+                <option value="GH">Ghana</option>
+                <option value="KE">Kenya</option>
+                <option value="MA">Morocco</option>
+                <option value="NG">Nigeria</option>
+                <option value="TN">Tunisia</option>
+                <option value="UG">Uganda</option>
+            </select>
+        </div>
+
+    </section>
+
+</body>
+<script src="script.js"></script>
+
+</html>
