@@ -844,11 +844,11 @@
     }
 
     .food-section {
-        margin-top: -95px;
+        margin-top: 20px;
     }
 
-    .video-div video {
-        max-width: 165px;
+    .video-div {
+        display: none;
     }
 
     .article-paragraph {
